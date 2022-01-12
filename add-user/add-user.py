@@ -12,7 +12,7 @@ def get_args():
                                    description='Add User To Site', \
                                    usage='%(prog)s user=USER nodes=NODES [options]')
 
-  # name and host are mandatory arguments that must be passed.
+  # user and nodes are mandatory arguments that must be passed.
   parser.add_argument('user', help='Username')
   parser.add_argument('nodes', help='Ansible Group, Host or All. Comma-deliminate.')
 
